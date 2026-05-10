@@ -24,7 +24,7 @@ export function ConnectSection() {
           <FadeIn direction="right">
             <div className="flex items-center justify-center order-2 lg:order-1">
               <PhoneMockup>
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.53.09%E2%80%AFAM-aj3RzOitFywCTJMaySO7Bt6Pp1aB0A.png"
                   alt="Tiptoe Secret PIN messaging"
                   className="w-full h-full object-cover"

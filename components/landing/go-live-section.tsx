@@ -25,7 +25,7 @@ export function GoLiveSection() {
           <FadeIn direction="right">
             <div className="flex items-center justify-center order-2 lg:order-1">
               <PhoneMockup rotation={2}>
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.46.13%E2%80%AFAM-pDJd8SUe4EG8kSYkVDP7uoxo5p1J4o.png"
                   alt="Tiptoe live streaming interface"
                   className="w-full h-full object-cover"

@@ -63,7 +63,7 @@ export function UniversalButtonSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-3xl blur-3xl" />
               
               <div className="relative rounded-3xl overflow-hidden border border-border shadow-2xl shadow-primary/20">
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.51.45%E2%80%AFAM-XcjUv8vvywPfxBYEiZqavTtvXKHYtg.png"
                   alt="Tiptoe Universal Button radial menu"
                   className="w-full h-auto max-w-md mx-auto"

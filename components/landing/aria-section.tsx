@@ -62,7 +62,7 @@ export function AriaSection() {
           <FadeIn delay={0.4} direction="left">
             <div className="flex items-center justify-center">
               <PhoneMockup rotation={2}>
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.49.22%E2%80%AFAM-3SX8t4mm3TEc9fBqqjcAvFGUPMFJus.png"
                   alt="Tiptoe Aria AI companion chat"
                   className="w-full h-full object-cover"

@@ -61,7 +61,7 @@ export function HeroSection() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
             {/* Left phone - Feed */}
             <PhoneMockup rotation={-4} className="hidden md:block">
-              <img
+              <img loading="eager" fetchpriority="high"
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.45.01%E2%80%AFAM.png-2giNZ2PRSmi5Cdtrgh5qHQ3u6zgrbF.jpeg"
                 alt="Tiptoe feed with video content"
                 className="w-full h-full object-cover"
@@ -70,7 +70,7 @@ export function HeroSection() {
 
             {/* Right phone - Live Stream */}
             <PhoneMockup rotation={2}>
-              <img
+              <img loading="eager" fetchpriority="high"
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.46.13%E2%80%AFAM-pDJd8SUe4EG8kSYkVDP7uoxo5p1J4o.png"
                 alt="Tiptoe live streaming"
                 className="w-full h-full object-cover"

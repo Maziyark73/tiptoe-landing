@@ -59,7 +59,7 @@ export function AuraSection() {
         <FadeIn delay={0.4}>
           <div className="flex justify-center mb-16">
             <PhoneMockup>
-              <img
+              <img loading="eager" fetchpriority="high"
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.48.35%E2%80%AFAM-7cpVs7q2bNg4hgJMaasN9IeTb3dZ7S.png"
                 alt="Tiptoe Aura AI producer dashboard"
                 className="w-full h-full object-cover"

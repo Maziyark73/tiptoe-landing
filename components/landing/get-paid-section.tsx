@@ -66,7 +66,7 @@ export function GetPaidSection() {
             <div className="relative flex items-center justify-center">
               {/* Main phone - Earnings */}
               <PhoneMockup>
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.56.17%E2%80%AFAM-Qx6O6dEQiZ1VDWfnkNr88uc1GVdoaD.png"
                   alt="Tiptoe earnings dashboard"
                   className="w-full h-full object-cover"
@@ -76,7 +76,7 @@ export function GetPaidSection() {
               {/* Smaller supporting phone - Analytics */}
               <div className="absolute -bottom-8 -left-16 hidden lg:block scale-75 opacity-80">
                 <PhoneMockup rotation={-8}>
-                  <img
+                  <img loading="eager" fetchpriority="high"
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.56.05%E2%80%AFAM-uToTvmASLXDBAmQXzJTozjtjQJst55.png"
                     alt="Tiptoe analytics dashboard"
                     className="w-full h-full object-cover"

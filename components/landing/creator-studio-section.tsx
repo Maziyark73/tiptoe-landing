@@ -15,7 +15,7 @@ export function CreatorStudioSection() {
           <FadeIn direction="right">
             <div className="flex items-center justify-center">
               <PhoneMockup rotation={-2}>
-                <img
+                <img loading="eager" fetchpriority="high"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-10%20at%2012.50.02%E2%80%AFAM-hL39Jchwjr3kbMiptcp5vm6yc5rYwb.png"
                   alt="Tiptoe Creator Studio"
                   className="w-full h-full object-cover"
